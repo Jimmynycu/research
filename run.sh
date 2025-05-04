@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cp -r jimmy ../lm-evaluation-harness/lm_eval/tasks/
+
 # Function to login to Hugging Face
 huggingface-cli login --token 
 
