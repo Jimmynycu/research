@@ -5,7 +5,7 @@ cp -r jimmy ../lm-evaluation-harness/lm_eval/tasks/
 # Function to login to Hugging Face
 huggingface-cli login --token 
 
-cd new
+cd result
 
 # Define the model path and result path variables
 models=(
