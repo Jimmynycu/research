@@ -7,8 +7,8 @@ output_type: multiple_choice
 training_split: train
 validation_split: validation
 test_split: null
-process_docs: !function 'utils.process_docs'
-doc_to_text: This is very important to my career. {{query}}
+process_docs: !function 'utils.process_docs_2'
+doc_to_text: "{{query}}"
 doc_to_target: '{{label}}'
 doc_to_choice: choices
 metric_list:
